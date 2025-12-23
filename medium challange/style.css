@@ -1,0 +1,18 @@
+form{
+    margin-top: 10px;
+}
+.email:invalid{
+    border: 2px solid red;
+}
+.password:invalid{
+    border: 2px solid green;
+}
+.button:invalid{
+    border: 2px solid green;
+}
+
+
+
+
+
+
