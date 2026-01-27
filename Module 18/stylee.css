@@ -1,0 +1,146 @@
+/* #translate{
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+    color: white;
+    background-color: blue;
+    padding: 10px;
+    transform: translate(1000px,50px);
+}
+
+#rotate{
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+    color: white;
+    background-color: blue;
+    padding: 10px;
+    transform: rotate(200deg);
+}
+
+#scale{
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+    color: white;
+    background-color: blue;
+    padding: 10px;
+    transform: scale(3,3)
+}
+
+#scaleX{
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+    color: white;
+    background-color: blue;
+    padding: 10px;
+    transform: scaleX(2);
+}
+
+
+#scaleY{
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+    color: white;
+    background-color: blue;
+    padding: 10px;
+    transform: scaleY(2);
+}
+
+#skewX{
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+    color: white;
+    background-color: blue;
+    padding: 10px;
+    transform: skewX(-400deg);
+}
+
+#skewY{
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+    color: white;
+    background-color: blue;
+    padding: 10px;
+    transform: skew(-400deg);
+}
+
+#rotatex{
+       width: 200px;
+    height: 200px;
+    border-radius: 5px;
+    color: white;
+    background-color: blue;
+    padding: 10px;
+    transform: rotateX(130deg); 
+}
+
+#rotatey{
+       width: 200px;
+    height: 200px;
+    border-radius: 5px;
+    color: white;
+    background-color: blue;
+    padding: 10px;
+    transform: rotateY(130deg); 
+}
+
+#rotatez{
+       width: 200px;
+    height: 200px;
+    border-radius: 5px;
+    color: white;
+    background-color: blue;
+    padding: 10px;
+    transform: rotateZ(130deg); 
+} */
+
+/* div{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    transition: background 3s, border-radius 5s;
+    transition-timing-function: linear;
+    transition-delay: 2s;
+/* } */
+
+/* 
+#mercedes{
+    transform: scale(1);
+    /* filter: blur(3px); */
+    /* transition: .3s ease-in-out; */
+/* } */
+
+/* #mercedes:hover{
+    margin-left: 30px;
+} */ */
+
+
+.loader{
+    margin: 100px;
+}
+
+.loader img{
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border-radius: 50%;
+    margin-right: 8px;
+    animation: bounce 8s infinite alternate;
+}
+
+@keyframes bounce {
+    to{
+        width: 150px;
+        height: 150px;
+        transform: translate3d(0,-50px,0);
+    }
+}
+
+.loader img:nth-child{
+    animation-delay: 2s;
+}
